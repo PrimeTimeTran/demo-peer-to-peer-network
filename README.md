@@ -2,7 +2,9 @@
 Create a blockchain app.
 
 ## Step 1
-Create basic behavior
+Get the ball running with some initial behavior.
+
+### Requirements
 
 - [ ] Create a user
 - [ ] Check the balance of an user
@@ -24,5 +26,6 @@ Create basic behavior
   - If anyone gets root access they can do anything
 
 ## Step 2
-
-- [ ] 
+Add a decentralized architecture.
+Use gossip protocol as proof of concept that we can propagate changes through a network of peers.
+Version updates in order to reconcile conflicts when a peer on the network receives multiple updates to the same port/peer/block.
